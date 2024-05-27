@@ -1,0 +1,126 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.hed-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 270px;
+    padding-right: 270px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.left {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hed-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 280px;
+}
+
+button {
+    padding: 10px 24px;
+    font-size: 12px;
+    border-radius: 12px;
+    color: white;
+    background-color: #3882F6;
+    flex-grow: 0;
+    border: solid white;
+}
+
+html { width:100%; height:100%; margin:0; padding:0; }
+body { width:100%; height:100%; margin:0; padding:0; }
+
+.mid-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+}
+
+.up1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.down1 {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.mid-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 270px;
+    background-color: #E5E7EB;
+    color: #1f2937;
+}
+
+.up2 {
+    width: 400px;
+    padding: 20px 400px;
+    font-style: italic;
+}
+
+.down2 {
+    padding: 20px 800px;
+    font-weight: 700;
+}
+
+.mid-3 {
+    margin: 50px 300px;
+    padding: 20px 200px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.up3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 500px;
